@@ -16,7 +16,7 @@
 ========================================================================== 
 */
 
-{% import "/CrankShaft/theme-variables.css" %}
+{% import "/CrankShaft/hubl/theme-variables.css" %}
 
 
 /* HTML 5 Reset stuff */
