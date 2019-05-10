@@ -54,5 +54,35 @@
 
 {% set gridGutterWidth = "15" %}{#specified in px, do not include unit#}
 
+/* Set ul background color */
+{% set ulColor       = "" %} 
+
+/*  Set li background Color */
+{% set liColor       = "" %} 
+
+/*  Set link Color */
+{% set aColor        = "" %} 
+
+/*  Set link Hover Color */
+{% set aColorHover   = "" %} 
+
+/* Set Mobile Menu Background Color */
+{% set menuColorMobile = "#000000" %}   
+
+/* Set Link Color */
+{% set aColorMobile = "#ffffff" %} 
+
+/* Set Link Hover Color */     
+{% set aColorHoverMobile = "#ffffff" %} 
+
+/* Menu background color set off global mobile-menuColor variable */
+{{ menuColorMobile }}; 
+
+/* link color set by global mobile-aColor variable */
+{{ aColorMobile }}; 
+
+/* link hover color set by global mobile-aColorHover variable */
+{{ aColorHoverMobile }}; 
+
 
 /* /theme-variables.css */
