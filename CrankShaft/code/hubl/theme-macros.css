@@ -5,7 +5,7 @@
 
  {% set macros = true %}
 
-
+{% if macros %}
 {#
 
 **Prefix Constructor**
@@ -788,5 +788,5 @@ Inside CSS block for element that the propert should affect, call macro with sta
         }
 {% endmacro %}
 
-
+{% endif %}
 /* /theme-macros.css*/
