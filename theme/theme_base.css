@@ -313,10 +313,6 @@ q:before, q:after, blockquote:before, blockquote:after {}
   /* Variables
      ========================================================================== */
 
- {% set menuColorMobile = "#000000" %}   /* Set Mobile Menu Background Color */
- {% set aColorMobile = "#ffffff" %}      /* Set Link Color */
- {% set aColorHoverMobile = "#ffffff" %} /* Set Link Hover Color */
-
 
   /* Menu Reset - Remove styling from desktop version of custom-menu-primary */
   /* Place any additional CSS you want removed from the mobile menu in this reset */
