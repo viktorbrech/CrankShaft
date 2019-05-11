@@ -1,0 +1,88 @@
+/**
+ * * theme-variables.css 
+ * * You should customize the variables here before building out your site. This file contains brand colors, grid
+ * * settings, optional additions and other important configuration settings.
+ * TODO: Add file location to this comment, to make it easy to find when inspecting on front end.
+ */
+
+
+
+/* Colors */
+{% set baseColor      = "#333" %}    /* {# Dark Gray  |  Used on 'body' in 'Base'  |  Ex. "color: {{ baseColor }};" #} */
+{% set linkColor      = "gray" %}    /* {# Gray  |  Used on global anchors in 'Base'  |  Ex. "color: {{ linkColor }};" #} */
+{% set linkHover      = "#000" %}    /* {# Black  |  Used on global anchors in 'Base'  |  Ex. "color: {{ linkHover }};" #} */
+{% set accentColor1   = "#666" %}    /* {# Medium Gray  |  Ex. "color: {{ accentColor1 }};" #} */
+{% set accentColor2   = "#ccc" %}    /* {# Light Gray  |  Ex. "color: {{ accentColor2 }};" #} */
+{% set accentColor3   = "#ddd" %}    /* {# Lightest Gray  |  Ex. "color: {{ accentColor3 }};" #} */
+
+/* Typography */
+{% set baseFontFamily    = "Arial, Sans-Serif" %}            /* {# Used on 'body' in 'Base'  |  Ex. "font-family: {{ baseFontFamily }};" #} */
+{% set baseFontSize      = "13px" %}                         /* {# Used on 'body' in 'Base'  |  Ex. "font-size: {{ baseFontSize }};" #} */
+{% set baseLineHeight    = "1.5" %}                          /* {# Used on 'body' in 'Base'  |  Ex. "line-height: {{ baseLineHeight }};" #} */
+{% set webFont1          = "Helvetica, Arial, Sans-serif" %} /* {# Ex. "font-family: {{ webFont1 }};" #} */
+
+/* Containers */
+{% set maxWidth = "960px" %} /* Used on '.page-center' in 'Base' and in the 'Portrait tablet to landscape and desktop' media query */
+
+
+/* Containers */
+{% set maxWidth = "1140px" %} /* Used on '.page-center' in 'Base' and in the 'Portrait tablet to landscape and desktop' media query */
+{% set maxWidthWithOuterMargin = "1170px" %} /* Add some left/right padding to prevent content from bumping up to the canvas edge beyond maxwidth */
+
+
+
+/*Media Queries
+* xs,sm,lmd,md,lg,xl all denote screen size range
+* up, down, denote the min and max for that range
+*/
+/*Extra Small - phones*/
+{% set xsDown= "575px"%}
+/*Small - Tablets*/
+{% set smUp= "576px"%}
+{% set smDown = "767px" %}
+/*Lower Medium - large tablets, small desktop/laptops*/
+{% set lmdUp = "768px"%}
+{% set lmdDown = "800px"%}
+/*Medium - Desktop/Laptop*/
+{% set mdUp = "801px"%}
+{% set mdDown ="991px"%}
+/*Large - Desktop/Laptop*/
+{% set lgup ="992px"%}
+{% set lgDown ="1199px"%}
+/*Extra Large - Wides screen desktop and laptops*/
+{% set xlUp ="1200px"%}
+
+{% set gridGutterWidth = "15" %}{#specified in px, do not include unit#}
+
+/* Set ul background color */
+{% set ulColor       = "" %} 
+
+/*  Set li background Color */
+{% set liColor       = "" %} 
+
+/*  Set link Color */
+{% set aColor        = "" %} 
+
+/*  Set link Hover Color */
+{% set aColorHover   = "" %} 
+
+/* Set Mobile Menu Background Color */
+{% set menuColorMobile = "#000000" %}   
+
+/* Set Link Color */
+{% set aColorMobile = "#ffffff" %} 
+
+/* Set Link Hover Color */     
+{% set aColorHoverMobile = "#ffffff" %} 
+
+/* Menu background color set off global mobile-menuColor variable */
+{{ menuColorMobile }}; 
+
+/* link color set by global mobile-aColor variable */
+{{ aColorMobile }}; 
+
+/* link hover color set by global mobile-aColorHover variable */
+{{ aColorHoverMobile }}; 
+
+
+/* /theme-variables.css */

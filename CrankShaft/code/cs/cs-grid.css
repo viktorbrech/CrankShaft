@@ -16,6 +16,7 @@
 ========================================================================== 
 */
 
+{% import "/CrankShaft/hubl/theme-variables.css" %}
 
 
 /* HTML 5 Reset stuff */
@@ -424,32 +425,6 @@ html, body {
 
 {#CrankShaft's Grid, based on Bootstrap 4's Grid #}
 
-/* Containers */
-{% set maxWidth = "1140px" %} /* Used on '.page-center' in 'Base' and in the 'Portrait tablet to landscape and desktop' media query */
-{% set maxWidthWithOuterMargin = "1170px" %} /* Add some left/right padding to prevent content from bumping up to the canvas edge beyond maxwidth */
-
-/*Media Queries
-* xs,sm,lmd,md,lg,xl all denote screen size range
-* up, down, denote the min and max for that range
-*/
-/*Extra Small - phones*/
-{% set xsDown= "575px"%}
-/*Small - Tablets*/
-{% set smUp= "576px"%}
-{% set smDown = "767px" %}
-/*Lower Medium - large tablets, small desktop/laptops*/
-{% set lmdUp = "768px"%}
-{% set lmdDown = "800px"%}
-/*Medium - Desktop/Laptop*/
-{% set mdUp = "801px"%}
-{% set mdDown ="991px"%}
-/*Large - Desktop/Laptop*/
-{% set lgup ="992px"%}
-{% set lgDown ="1199px"%}
-/*Extra Large - Wides screen desktop and laptops*/
-{% set xlUp ="1200px"%}
-
-{% set gridGutterWidth = "15" %}{#specified in px, do not include unit#}
 /*
  * Bootstrap Grid v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
