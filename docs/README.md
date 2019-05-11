@@ -5,8 +5,35 @@ If you'd like to contribute [here are all of the Issues related to the docs](htt
 
 CrankShaft is not yet stable, we do not advise using it for a production website. With your help though we can get it there!
 
+
 ## How to use CrankShaft
 CrankShaft was designed to be downloaded to your computer unzipped, and then using [HubSpot's FTP](https://designers.hubspot.com/docs/tools/hubspot-ftp) uploaded to your HubSpot portal. 
+
+The file structure looks a bit like this:
+```
+CrankShaft
+├── code/
+│   ├── cs/
+│   │   ├── cs-defaults.css
+│   │   └── cs-grid.css
+│   ├── css/
+│   │   ├── theme-module-customizations.css
+│   │   └── theme.css
+│   ├── hubl/
+│   │   ├── theme-macros.css
+│   │   └── theme-variables.css
+│   ├── js/
+│   │   └── theme.js
+├── globals/
+│   ├── global-groups/
+│   └── global-modules/
+├── modules/
+│   └── dependencies/
+└── templates/
+    ├── blog/
+    ├── page/
+    └── system/
+```
 
 ### Set your Theme settings
 Once uploaded go into CrankShaft/code/hubl/theme-variables.css 
