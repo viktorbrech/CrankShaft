@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
+title: CrankShaft
+description: A framework for HubSpot CMS development that taking advantage of HubSpot's capabilities to make development faster of  more performant, and higher quality websites.
 show_downloads: false
 google_analytics: UA-139992137-1
