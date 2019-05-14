@@ -92,7 +92,7 @@ That means:
 
 Want to get involved? post issues, submit pull requests, and join the discussion in the [Slack Channel](https://hubspotdev.slack.com/messages/CCQSQ2C6L).
 
-### New Git/GitHub or Open Source?
+### New to Git/GitHub or Open Source?
 [No Problem, here are some resources!](https://github.com/TheWebTech/CrankShaft/wiki/New-to-Git-and-GitHub%3F)
 
 #### Legacy COS Boilerplate Contributors:
