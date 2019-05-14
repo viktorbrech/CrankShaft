@@ -85,7 +85,7 @@ That means:
 * "CrankShaft" Name by Mark Ryba
    * Name voted on by AJ Laporte, Maia Singletary, Jim Mikecz, [Jon McLaren](https://github.com/thewebtech).
 * Grid methodology discussed by AJ Laporte, Mark Ryba, [Jon McLaren](https://github.com/thewebtech), Jenna Schultz.
-   * Initial grid generation code by Jon McLaren](https://github.com/thewebtech)
+   * Initial grid generation code by [Jon McLaren](https://github.com/thewebtech)
 * Logo design by Jon Eichler, additional logo concepts submitted by Andreas Wessoly and [Tony Strack](https://github.com/tone4407).
    * Logo voted on by Jon Eichler, Ryan Noon, Chad Pierce, John Fuller, Luke Summerfield, Dennis Edison, Umakant Sharma, Gonzalo Torreras, Erik Hooijer, John Fuller, Chandresh Singh, Toni Bergholm, AJ Laporte, Dennis Edison, Zack Wolfson, Scott Brown, [Tony Strack](https://github.com/tone4407), Gary Wong, Michelle Villalobos.(listed in no particular order)
 * Community coordination/organization led by [Jon McLaren](https://github.com/thewebtech)
