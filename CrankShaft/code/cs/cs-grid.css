@@ -788,42 +788,12 @@ html {
   }
   {% endfor %}
  
-  .offset-xl-0 {
-    margin-left: 0;
+  {% for i in range(0, 12) -%}
+  .offset-xl-{{i}} {
+    {% set colwidth = (100/12) * i  %}
+    margin-left: {{colwidth}}%;
   }
-  .offset-xl-1 {
-    margin-left: 8.333333%;
-  }
-  .offset-xl-2 {
-    margin-left: 16.666667%;
-  }
-  .offset-xl-3 {
-    margin-left: 25%;
-  }
-  .offset-xl-4 {
-    margin-left: 33.333333%;
-  }
-  .offset-xl-5 {
-    margin-left: 41.666667%;
-  }
-  .offset-xl-6 {
-    margin-left: 50%;
-  }
-  .offset-xl-7 {
-    margin-left: 58.333333%;
-  }
-  .offset-xl-8 {
-    margin-left: 66.666667%;
-  }
-  .offset-xl-9 {
-    margin-left: 75%;
-  }
-  .offset-xl-10 {
-    margin-left: 83.333333%;
-  }
-  .offset-xl-11 {
-    margin-left: 91.666667%;
-  }
+  {% endfor %}
 }
 
 .d-none {
