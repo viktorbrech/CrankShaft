@@ -82,13 +82,13 @@ That means:
 
 
 ## Contributors
-* "CrankShaft" Name by Mark Ryba
+* **"CrankShaft" Name** by Mark Ryba
    * Name voted on by AJ Laporte, Maia Singletary, [Jim Mikecz](https://github.com/jwolfjim), [Jon McLaren](https://github.com/thewebtech).
-* Grid methodology discussed by AJ Laporte, Mark Ryba, [Jon McLaren](https://github.com/thewebtech), [Jenna Schultz](https://github.com/jennaschultz).
-   * Initial grid generation code by [Jon McLaren](https://github.com/thewebtech)
-* Logo design by Jon Eichler, additional logo concepts submitted by Andreas Wessoly and [Tony Strack](https://github.com/tone4407).
-   * Logo voted on by Jon Eichler, Ryan Noon, Chad Pierce, John Fuller, [Luke Summerfield](https://github.com/LukeSummerfield), [Dennis Edison](https://github.com/beacondigitalmarketing), Umakant Sharma, [Gonzalo Torreras](https://github.com/GonzaloTorreras), Erik Hooijer, John Fuller, Chandresh Singh, Toni Bergholm, AJ Laporte, Zack Wolfson, Scott Brown, [Tony Strack](https://github.com/tone4407), Gary Wong, Michelle Villalobos.(listed in no particular order)
-* Community coordination/organization led by [Jon McLaren](https://github.com/thewebtech)
+* **Grid** methodology discussed by AJ Laporte, Mark Ryba, [Jon McLaren](https://github.com/thewebtech), [Jenna Schultz](https://github.com/jennaschultz).
+   * **Initial grid** generation code by [Jon McLaren](https://github.com/thewebtech)
+* **Logo design** by Jon Eichler, additional logo concepts submitted by Andreas Wessoly and [Tony Strack](https://github.com/tone4407).
+   * **Logo voted on** by Jon Eichler, Ryan Noon, Chad Pierce, John Fuller, [Luke Summerfield](https://github.com/LukeSummerfield), [Dennis Edison](https://github.com/beacondigitalmarketing), Umakant Sharma, [Gonzalo Torreras](https://github.com/GonzaloTorreras), Erik Hooijer, John Fuller, Chandresh Singh, Toni Bergholm, AJ Laporte, Zack Wolfson, Scott Brown, [Tony Strack](https://github.com/tone4407), Gary Wong, Michelle Villalobos.(listed in no particular order)
+* **Community coordination/organization** led by [Jon McLaren](https://github.com/thewebtech)
 
 Want to get involved? post issues, submit pull requests, and join the discussion in the [Slack Channel](https://hubspotdev.slack.com/messages/CCQSQ2C6L).
 
