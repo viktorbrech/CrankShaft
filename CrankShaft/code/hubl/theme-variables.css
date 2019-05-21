@@ -58,7 +58,7 @@
 
 /* Total Column Count / Default is 12 */
 
-{% set columnCount = "12" %} /* Used in cs-grid.css to create a variable column count for our grid system ----- ISSUE: Make grid column count a variable #60 */
+{% set columnCount = 12 %} /* Used in cs-grid.css to create a variable column count for our grid system ----- ISSUE: Make grid column count a variable #60 */
 
 /*Media Queries
 * xs,sm,lmd,md,lg,xl all denote screen size range
