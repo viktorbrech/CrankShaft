@@ -14,6 +14,34 @@
 {% set accentColor2   = "#ccc" %}    /* {# Light Gray  |  Ex. "color: {{ accentColor2 }};" #} */
 {% set accentColor3   = "#ddd" %}    /* {# Lightest Gray  |  Ex. "color: {{ accentColor3 }};" #} */
 
+
+/* ======  @D.holdt addressing Add Color Variables to theme-variables.css ======*/
+/* How to use Color Variables 
+*
+*  1. Define your color variables semantically in {# what is the appropriate file for proper import? #} {# Ex. {% set brandBlue = #0366d6 %}
+*  2. Reference the desired color variable in the more generic variables.  {# ex. {% set primaryColor = brandBlue %}  #}
+*     2a. This method will make future edits to color sets more flexible (generic name used throughout CSS, 
+*         but semantically obvious at initial point of definition.
+*
+*   Helpful HubL Color Snippets  ( https://designers.hubspot.com/docs/hubl/hubl-supported-variables#variables-available-in-all-templates )
+*    1. {{ site_settings.primary_color }}
+*    2. {{ site_settings.secondary_color }}
+*    3. {{ site_settings.primary_accent_color }}
+*    4. {{ site_settings.secondary_accent_color }}
+*/
+
+{% set primaryColor    = yourVariableHere %}
+{% set secondaryColor  = yourVariableHere %}
+{% set tertiaryColor   = yourVariableHere %}
+{% set successColor    = yourVariableHere %}
+{% set dangerColor     = yourVariableHere %}
+{% set warningColor    = yourVariableHere %}
+{% set infoColor       = yourVariableHere %}
+
+{% set primaryColor_light   = color_variant(yourVariableHere, 15) %}  /*use this function to create a lighter or darker variant of a base color. Similar output to SASS*/
+{% set primaryColor_dark    = color_variant(yourVariableHere, -15) %}  /* 1 through 255 to lighten / -1 through -255 to darken   */
+
+
 /* Typography */
 {% set baseFontFamily    = "Arial, Sans-Serif" %}            /* {# Used on 'body' in 'Base'  |  Ex. "font-family: {{ baseFontFamily }};" #} */
 {% set baseFontSize      = "13px" %}                         /* {# Used on 'body' in 'Base'  |  Ex. "font-size: {{ baseFontSize }};" #} */
@@ -28,7 +56,9 @@
 {% set maxWidth = "1140px" %} /* Used on '.page-center' in 'Base' and in the 'Portrait tablet to landscape and desktop' media query */
 {% set maxWidthWithOuterMargin = "1170px" %} /* Add some left/right padding to prevent content from bumping up to the canvas edge beyond maxwidth */
 
+/* Total Column Count / Default is 12 */
 
+{% set columnCount = 12 %} /* Used in cs-grid.css to create a variable column count for our grid system ----- ISSUE: Make grid column count a variable #60 */
 
 /*Media Queries
 * xs,sm,lmd,md,lg,xl all denote screen size range
