@@ -1,4 +1,4 @@
-/* Polyfills.js */
+/* CrankShaft/code/cs/cs-defaults.js */
 
 /**
  * * CrankShaft/code/cs/polyfills.js
@@ -7,4 +7,20 @@
  * * This file aggregates polyfills and js required for aspects of the framework to work consistently across web browsers.
  */
 
- /* CrankShaft/code/cs/polyfills.js */
+
+/* Accordion Group */
+$(".accordion-group>details").click(function(){
+    var isOpen = typeof $(this).attr("open") =='undefined';
+    if(isOpen){
+      $(this).siblings("details").removeAttr("open");
+    }
+  });
+/* end accordion group */
+
+/*
+ * JS Polyfills
+ Polyfill code should be done as an include below this comment. This makes it easier to update external libraries like these polyfills without affecting this main file.
+*/
+
+/* end JS Polyfills */
+ /* CrankShaft/code/cs/cs-defaults.js */
