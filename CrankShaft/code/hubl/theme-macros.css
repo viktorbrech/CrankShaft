@@ -1,15 +1,13 @@
 /**
- * * CrankShaft/code/hubl/theme-macros.css 
- * * This file contains macros you can use to build out your site more efficiently with. None of the Macros included are mandatory, macros required for CrankShaft are stored in the cs folder files. Macros provided here are optional helpers you can use. Since they are only handled server side there isn't really a reason to remove ones you don't use.
- */
-
- {% set macros = true %}
+* * CrankShaft/code/hubl/theme-macros.css 
+* * This file contains macros you can use to build out your site more efficiently with. None of the Macros included are mandatory, macros required for CrankShaft are stored in the cs folder files. Macros provided here are optional helpers you can use. Since they are only handled server side there isn't really a reason to remove ones you don't use.
+*/
+{% import "CrankShaft/code/hubl/theme-variables.css" %}
 
 {% if macros %}
 {#
 
 **Prefix Constructor**
- 
 Utility macro that builds builds vendor prefixed versions of a statement.
 
 Usage
@@ -153,7 +151,6 @@ Examples
 {% macro emConversion(value, context) %}
     
     {%if !context %}{% set context = 16 %}{% endif %}
-     
     {% set values = value|split(' ') %}
     {% for v in values %}
         {% set emValue = v/context %} 
@@ -248,7 +245,7 @@ Use 'null' for any value you would like to exclude. The position property is req
     
 Example
 
- {{ position('absolute', null, '0', '0', null) }};
+{{ position('absolute', null, '0', '0', null) }};
 
 #}
 
@@ -302,11 +299,11 @@ or
 
 {% macro clearfix(selector) %}
 
-  {{ selector }}:after {
+{{ selector }}:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 {% endmacro %}
 
@@ -344,7 +341,6 @@ Example
     width: 0;
     
     {%if !height %}{%set height = width%}{%endif%} 
-           
     {% if direction == 'top' %}
         border-left: {{ width }} solid transparent;
         border-right: {{ width }} solid transparent;
@@ -381,11 +377,11 @@ Inside CSS block for an element, call macro with these parameters in this order:
 Examples
 
 #gradient {
-  {{ linearGradient('to top', 'blue, green') }}
+{{ linearGradient('to top', 'blue, green') }}
 }
 
 #gradient {
-  {{ linearGradient('190deg', 'rgba(200, 200, 190, 1) 20%, rgba(200, 200, 190, 0) 80% ') }}
+{{ linearGradient('190deg', 'rgba(200, 200, 190, 1) 20%, rgba(200, 200, 190, 0) 80% ') }}
 }
     
 #}
@@ -551,7 +547,7 @@ Example
 
 {% macro transition(properties) %}
 
-  
+
             {% set prefixes = ["webkit", "moz"] %}
             {% for prefix in prefixes %}              
                 {{ "-" ~ prefix ~ "-transition: " ~ properties|replace('transform', '-' ~ prefix ~ '-transform') }};
@@ -781,10 +777,10 @@ Inside CSS block for element that the propert should affect, call macro with sta
 
 {% macro selection(selector) %}
         {{ selector }}::-moz-selection {
-           {{ caller() }}
+        {{ caller() }}
         }
         {{ selector }}::selection {
-           {{ caller() }}
+        {{ caller() }}
         }
 {% endmacro %}
 

@@ -111,5 +111,9 @@
 /* link hover color set by global mobile-aColorHover variable */
 {{ aColorHoverMobile }}; 
 
+/* Framework Settings */
+/* CS comes with lots of helper macros, these do not increase file size of your output code as they are HubL based. Turn this off if you don't want to use any of them. */
+{% set macros = true %} /* Default: True */
+
 
 /* /theme-variables.css */
