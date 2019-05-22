@@ -10,7 +10,16 @@ If you'd like to contribute [here are all of the Issues related to the docs](htt
 ## How to use CrankShaft
 CrankShaft was designed to be downloaded to your computer unzipped, and then using [HubSpot's FTP](https://designers.hubspot.com/docs/tools/hubspot-ftp) uploaded to your HubSpot portal. 
 
-The file structure looks a bit like this:
+We currently recommend Transmit FTP for Mac users due to it's Synchronize capability. You can then use a skip rule to skip uploading of Markdown files. 
+1. Add a Skip rule. 
+2. Set `kind` `is` `Markdown`
+3. Close the rules window and run a synchronize simulation look to see if it mentions .md files. We don't want those to sync.
+
+We may remove the markdown files over time to make this easier.
+If anyone knows a similar FTP client for Windows please post an issue in github so we can reference it.
+
+### The file structure
+Everything you need is inside the Crankshaft folder, everything else is not necessary.
 ```
 CrankShaft
 ├── code/
