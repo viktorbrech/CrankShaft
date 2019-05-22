@@ -451,12 +451,11 @@ html {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   width: 100%;
   padding-right: {{gridGutterWidth / 2}}px;
   padding-left: {{gridGutterWidth / 2}}px;
-
   margin-right: auto;
   margin-left: auto;
 }
@@ -493,8 +492,10 @@ html {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  padding-right: {{gridGutterWidth / 2}}px;
+  padding-left: {{gridGutterWidth / 2}}px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -505,8 +506,10 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px;
+  margin-left: -15px; */
+  margin-right: -{{gridGutterWidth / 2}}px;
+  margin-left: -{{gridGutterWidth / 2}}px;
 }
 
 .no-gutters {
