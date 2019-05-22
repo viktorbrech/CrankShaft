@@ -10,7 +10,8 @@ If you'd like to contribute [here are all of the Issues related to the docs](htt
 ## How to use CrankShaft
 CrankShaft was designed to be downloaded to your computer unzipped, and then using [HubSpot's FTP](https://designers.hubspot.com/docs/tools/hubspot-ftp) uploaded to your HubSpot portal. 
 
-The file structure looks a bit like this:
+### The file structure
+Everything you need is inside the Crankshaft folder, everything else is not necessary.
 ```
 CrankShaft
 ├── code/

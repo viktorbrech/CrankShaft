@@ -1,5 +1,5 @@
-# CrankShaft
-In one Sentence: CrankShaft is a framework for HubSpot CMS development that takes full advantage of HubSpot's capabilities to make development faster, enabling more performant, and higher quality websites.
+# ![CrankShaft - An Open Source HubSpot Development Framework](https://github.com/TheWebTech/CrankShaft/blob/master/logos/SVG/crankshaft-horz.svg)
+CrankShaft is a framework for HubSpot CMS development that takes full advantage of HubSpot's capabilities to make development faster, enabling more performant, and higher quality websites.
 
 We are building the Crankshaft to the whole HubSpot Flywheel - hense the name.
 
