@@ -789,4 +789,13 @@ Inside CSS block for element that the propert should affect, call macro with sta
 {% endmacro %}
 
 {% endif %}
+
+{% macro debug( var ) -%}
+    {%- if request.query_dict.hsDebug == true -%}
+    <pre style="white-space: pre-wrap; word-wrap: break-word; padding: 1em; background-color: #f1f1f1; color: #333;">
+        {{ var|pprint }}
+    </pre>
+    {%- endif -%}
+{% endmacro %}
+
 /* CrankShaft/code/hubl/theme-macros.css */
