@@ -777,7 +777,7 @@ Inside CSS block for element that the propert should affect, call macro with sta
 
 
 
-{# Selection, include selector if references a css selector #]
+{# Selection, include selector if references a css selector #}
 
 {% macro selection(selector) %}
         {{ selector }}::-moz-selection {
@@ -788,7 +788,7 @@ Inside CSS block for element that the propert should affect, call macro with sta
         }
 {% endmacro %}
 
-{% endif %}
+
 
 {% macro debug( var ) -%}
     {%- if request.query_dict.hsDebug == true -%}
@@ -798,4 +798,5 @@ Inside CSS block for element that the propert should affect, call macro with sta
     {%- endif -%}
 {% endmacro %}
 
+{% endif %}
 /* CrankShaft/code/hubl/theme-macros.css */
