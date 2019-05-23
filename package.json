@@ -1,0 +1,19 @@
+{  "//": [ 
+  "We are not using a build process, we are using package.json manually right now to reap the benefits of", 
+  "GitHub's security features. This file only needs to include javascript dependencies we rely on." ],
+  "name": "CrankShaft",
+  "description": "A framework for building modern websites on the HubSpot Platform.",
+  "version": "0.0.1",
+  "repository": "https://github.com/TheWebTech/CrankShaft/",
+  "bugs": "https://github.com/TheWebTech/CrankShaft/issues",
+  "dependencies": {
+    "details-element-polyfill": "^2.3.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "engines": {
+  },
+  "license": "MIT"
+}
