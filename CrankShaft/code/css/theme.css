@@ -2,6 +2,8 @@
  * * CrankShaft/code/css/theme.css
  * * This file is where your css for your site should go.
  */
-
+/** import theme variables and macros */
+{% import "CrankShaft/code/hubl/theme-variables.css" %}
+{% import "CrankShaft/code/hubl/theme-macros.css" %}
 
 /* CrankShaft/code/css/theme.css */
