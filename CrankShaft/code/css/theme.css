@@ -6,4 +6,9 @@
 {% import "CrankShaft/code/hubl/theme-variables.css" %}
 {% import "CrankShaft/code/hubl/theme-macros.css" %}
 
+/** Include CS Grid */
+{% if csGrid %}
+    {% include "CrankShaft/code/cs/cs-grid.css" %}
+{% endif %}
+
 /* CrankShaft/code/css/theme.css */
