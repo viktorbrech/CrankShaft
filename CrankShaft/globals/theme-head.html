@@ -5,7 +5,13 @@
  * * {# {% include "CrankShaft/globals/theme-head.html" %} #}
  */
 -->
-<!-- manifest code and favicons-->
+<!--* Variables and Macros -->
+{% import "CrankShaft/code/hubl/theme-variables.css" %}
+{% import "CrankShaft/code/hubl/theme-macros.css" %}
+<!--* Theme CSS -->
+{{ require_css("CrankShaft/code/css/theme.css") }}
+
+<!--* manifest code and favicons-->
 <!-- TODO Make each icon a string variable in theme.css, also theme-color, tile color, mask-icon color -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,7 +21,7 @@
 <meta name="msapplication-TileColor" content="#d630b0">
 <meta name="theme-color" content="#ffffff">
 <!-- end manifest code and favicons -->
-<!-- Load Fonts here -->
+<!--* Load Fonts here -->
 <!-- TODO Make fontawesome togglable via boolean -->
     <!--<link rel="stylesheet" href="https://use.typekit.net/TYPEKITID.css">-->
     <!--<link href="https://fonts.googleapis.com/css?family=FONTNAME&display=swap" rel="stylesheet">-->
