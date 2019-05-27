@@ -111,9 +111,15 @@
 /* link hover color set by global mobile-aColorHover variable */
 {{ aColorHoverMobile }}; 
 
-/* Framework Settings */
+/** Framework Settings 
+* * CrankShaft has a lot of features that can be enabled, disabled as well as configured, based on your website's needs. */
 /* CS comes with lots of helper macros, these do not increase file size of your output code as they are HubL based. Turn this off if you don't want to use any of them. */
 {% set macros = true %} /* Default: True */
 
+/* CS comes with a grid, this grid does increase file-size but*/
+{% set csGrid = true %} /* Default: True */
+
+/* CrankShaft supports HubSpot's grid classes, this enables the HubSpot Drag n Drop regions and drag and drop templates to work */
+{% set csHSGridFallback = true %} /* Default: True (recommended)*/
 
 /* CrankShaft/code/hubl/theme-variables.css */
