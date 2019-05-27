@@ -114,7 +114,7 @@
 /** Framework Settings 
 * * CrankShaft has a lot of features that can be enabled, disabled as well as configured, based on your website's needs. */
 /* CS comes with lots of helper macros, these do not increase file size of your output code as they are HubL based. Turn this off if you don't want to use any of them. */
-{% set macros = true %} /* Default: True */
+{% set csMacros = true %} /* Default: True */
 
 /* CS comes with a grid, this grid does increase file-size but*/
 {% set csGrid = true %} /* Default: True */

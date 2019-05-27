@@ -4,7 +4,7 @@
 */
 {% import "CrankShaft/code/hubl/theme-variables.css" %}
 
-{% if macros %}
+{% if csMacros %}
 {#
 
 **Prefix Constructor**
