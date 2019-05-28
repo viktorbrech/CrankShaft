@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ content.html_title }}</title>
+        <meta name="description" content="{{ content.meta_description }}">
+        {# Place site wide head code in theme-head.html, it should be included into every template. #}
+        {% include "CrankShaft/globals/theme-head.html" %}
+        {{ standard_header_includes }}
+    </head>
+    <body>
+      <h2>
+        Modern Grid
+      </h2>
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-6">
+            Half
+          </div>
+          <div class="col-6">
+            Half
+          </div>
+          
+        </div>
+        
+      </div>
+
+        {{ standard_footer_includes }}
+    </body>
+</html>
