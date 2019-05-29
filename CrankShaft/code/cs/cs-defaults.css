@@ -4,6 +4,13 @@
 * ! THIS FILE IS PART OF THE CS-GRID FRAMEWORK ITSLEF, AND WHEN BUILDING YOUR SITE, YOU SHOULD NOT EDIT THIS FILE DIRECTLY, DOING SO WILL PREVENT BEING ABLE TO UPDATE THE FILE DOWN THE ROAD. IF YOU DO NOT LIKE A STYLE THIS IS ADDING, OVERRIDE IT.
 */
 
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
 /*Accordions/Detail and Summary Elements*/
 /* TODO still need to implement class based version, which may enable gradual transitions on the element.*/
 /* Codepen demoing how it works. https://codepen.io/thewebtech/pen/QROzmX */
