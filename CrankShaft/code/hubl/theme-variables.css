@@ -122,4 +122,27 @@
 /* CrankShaft supports HubSpot's grid classes, this enables the HubSpot Drag n Drop regions and drag and drop templates to work */
 {% set csHSGridFallback = true %} /* Default: True (recommended)*/
 
+/* CrankShaft comes with font weight variables to make it faster and easier to implement font weights based on their names shown in common programs. */
+{% set csFontWeightVars = true %} /* Default: True */
+
+
+
+
+{% if csFontWeightVars %}
+    /** Font Weights
+    Semi-standard font weights for typekit fonts
+    use them like this: font-weight:{{fwMedium}};
+    */
+    {% set fwThin = 100 %}
+    {% set fwExtraLight = 200%}
+    {% set fwLight = 300 %}
+    {% set fwNormal = 400 %}
+    {% set fwbook = fwNormal %}
+    {% set fwMedium = 500 %}
+    {% set fwDemiBold = 600 %}
+    {% set fwSemiBold = fwDemiBold %}
+    {% set fwBold = 700 %}
+    {% set fwHeavy = 800 %}
+    {% set fwBlack = 900 %}
+{% endif %}
 /* CrankShaft/code/hubl/theme-variables.css */
