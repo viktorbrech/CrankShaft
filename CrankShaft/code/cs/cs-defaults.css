@@ -9,6 +9,10 @@ html, body {
     min-height: 100%;
     margin: 0;
     padding: 0;
+    {% if csFontSmoothing %}
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    {% endif %}
 } 
 
 /*Accordions/Detail and Summary Elements*/

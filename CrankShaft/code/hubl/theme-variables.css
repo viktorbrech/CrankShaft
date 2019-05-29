@@ -125,6 +125,8 @@
 /* CrankShaft comes with font weight variables to make it faster and easier to implement font weights based on their names shown in common programs. */
 {% set csFontWeightVars = true %} /* Default: True */
 
+/* Enable css font-smoothing across whole website - usually makes fonts display more consistently to Photoshop, XD, Illustrator, and other design apps. */
+{% set csFontSmoothing = true %} /* Default: True */
 
 
 
