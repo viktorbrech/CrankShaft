@@ -784,7 +784,15 @@ Inside CSS block for element that the propert should affect, call macro with sta
         }
 {% endmacro %}
 
-
+{# covert color field output to rgba if transparency, if no transparency outputs hex. #}
+{%- macro outputColor(color,opacity) -%}
+    {%- if opacity < 100 -%}
+        rgba({{color|convert_rgb}}, {{opacity/100}})
+        {%- else -%}
+        {{color}}
+    {%- endif -%}
+{%- endmacro -%}
+{#{{outputColor(module.background_color.color, module.background_color.opacity)}}#}
 
 {% macro debug( var ) -%}
     {%- if request.query_dict.hsDebug == true -%}
