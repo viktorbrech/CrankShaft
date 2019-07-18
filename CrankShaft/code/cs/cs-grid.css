@@ -16,7 +16,7 @@
 ========================================================================== 
 */
 
-{% import "/CrankShaft/hubl/theme-variables.css" %}
+{% import "CrankShaft/code/hubl/theme-variables.css" %}
 
 
 /* HTML 5 Reset stuff */
@@ -30,11 +30,6 @@
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-html, body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-} 
 
 
 {#the code below is for reference until our grid system is built #}
@@ -432,7 +427,6 @@ html, body {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /* TODO Implement backward compatibility to old HS grid. Issue #32 */
-/* TODO Use HubL to generate the grid code. Issue #33 */
 
 @-ms-viewport {
   width: device-width;

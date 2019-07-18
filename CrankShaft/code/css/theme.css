@@ -1,8 +1,14 @@
 /**
- * * theme.css 
+ * * CrankShaft/code/css/theme.css
  * * This file is where your css for your site should go.
- * TODO: Add file location to this comment, to make it easy to find when inspecting on front end.
  */
+/** import theme variables and macros */
+{% import "CrankShaft/code/hubl/theme-variables.css" %}
+{% import "CrankShaft/code/hubl/theme-macros.css" %}
 
+/** Include CS Grid */
+{% if csGrid %}
+    {% include "CrankShaft/code/cs/cs-grid.css" %}
+{% endif %}
 
-/* /theme.css*/
+/* CrankShaft/code/css/theme.css */
