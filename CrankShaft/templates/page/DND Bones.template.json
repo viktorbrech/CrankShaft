@@ -1,9 +1,4 @@
 {
-  "id" : 11493504729,
-  "portalId" : 5424524,
-  "created" : 1563851656405,
-  "updated" : 1563851695640,
-  "updatedBy" : "jonmclaren1@gmail.com",
   "deletedAt" : 0,
   "label" : "DND Bones",
   "path" : "generated_layouts/11493504729.html",
@@ -110,7 +105,6 @@
   "generator" : null,
   "authorAt" : 1563851695640,
   "cdnPurgeEmbargoTime" : null,
-  "author" : "jonmclaren1@gmail.com",
   "isReadOnly" : false,
   "attachedStylesheets" : [ ],
   "attachedJs" : [ ],
