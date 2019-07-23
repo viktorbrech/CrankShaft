@@ -4,8 +4,6 @@
  * * settings, optional additions and other important configuration settings.
  */
 
-
-
 /* Colors */
 {% set baseColor      = "#333" %}    /* {# Dark Gray  |  Used on 'body' in 'Base'  |  Ex. "color: {{ baseColor }};" #} */
 {% set linkColor      = "gray" %}    /* {# Gray  |  Used on global anchors in 'Base'  |  Ex. "color: {{ linkColor }};" #} */
@@ -24,10 +22,10 @@
 *         but semantically obvious at initial point of definition.
 *
 *   Helpful HubL Color Snippets  ( https://designers.hubspot.com/docs/hubl/hubl-supported-variables#variables-available-in-all-templates )
-*    1. {{ site_settings.primary_color }}
-*    2. {{ site_settings.secondary_color }}
-*    3. {{ site_settings.primary_accent_color }}
-*    4. {{ site_settings.secondary_accent_color }}
+*    1. {# site_settings.primary_color #}
+*    2. {# site_settings.secondary_color #}
+*    3. {# site_settings.primary_accent_color #}
+*    4. {# site_settings.secondary_accent_color #}
 */
 
 {% set primaryColor    = yourVariableHere %}
@@ -130,6 +128,11 @@
 /* Enable css font-smoothing across whole website - usually makes fonts display more consistently to Photoshop, XD, Illustrator, and other design apps. */
 {% set csFontSmoothing = true %} /* Default: True */
 
+/* Require Normalize (most recent from CDN) for whole website */
+{% set csRequireNormalize = true %}  /* Default: True */
+
+/* Require Font Awesome 5.8.2 */
+{% set csRequireFontAwesome = true %}  /* Default: True */
 
 
 {% if csFontWeightVars %}
