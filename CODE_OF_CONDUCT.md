@@ -73,7 +73,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 9. Contact info
 
-jonmclaren1@gmail.com
+send @TheWebTech a message over GitHub.
 
 ## 10. License and attribution
 
